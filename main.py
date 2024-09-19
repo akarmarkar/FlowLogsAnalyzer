@@ -60,7 +60,7 @@ def genFields(path: str,lineLambda,splitChar:str=",") -> str:
         # Skip the first line as it contains the csv header information
         logger.info(f"CSV Header:{f.readline().strip()}")
         for line in f:
-            line = lineLambda(line)#.strip()
+            line = lineLambda(line)
             parts = line.split(splitChar)
             yield parts
 

@@ -129,13 +129,16 @@ Assumptions:
 
 How to compile/run the program: 
 - Checkout the github repository.
-- pip install requirements.txt file for installing any dependencies
-- Invoke the program as python3 main.py <PATH_TO_FLOW_LOGS> <PATH_TO_TAG_MAPPINGS>
+- Invoke the program as python3 main.py <PATH_TO_FLOW_LOGS.csv> <PATH_TO_TAG_MAPPINGS.csv> <PATH_TO_OUTPUT.csv>
 
 What was tested: 
-- As a first draft, only a simple csv file containing test data was used.
-- 
+- As a first draft, only a simple csv file containing test data was tested.
+- More extensive testing with large files needs to be done
 
 # TODO/Any other analysis you may want to share about your code/program :
 
-- 
+- The records are parsed to strictly match types and bad records are not processed
+
+Demo:
+
+[![asciicast](https://asciinema.org/a/56hfe2RX6Zshad7VEBkqThV2r.svg)](https://asciinema.org/a/56hfe2RX6Zshad7VEBkqThV2r)
