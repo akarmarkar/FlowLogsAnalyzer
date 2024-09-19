@@ -132,18 +132,17 @@ How to compile/run the program:
 - Invoke the program as python3 main.py <PATH_TO_FLOW_LOGS.csv> <PATH_TO_TAG_MAPPINGS.csv> <PATH_TO_OUTPUT.csv>
 
 What was tested: 
+- First draft was done in ~2h
 - As a first draft, only a simple csv file containing test data was tested.
 - More extensive testing with large files needs to be done
 
 # TODO/Any other analysis you may want to share about your code/program :
 
 - The records are parsed to strictly match types and bad records are not processed
-- 
-# TODO:
-# - Add flags parsing instead of accepting commandline args
-# - Stronger type checking
-# - Custom formats
-# - Add more complete enums (see definitions below)
+- Add flags parsing instead of accepting commandline args
+- Stronger type checking
+- Custom formats
+- Add more complete enumerations for protocols etc.
 
 Demo:
 
