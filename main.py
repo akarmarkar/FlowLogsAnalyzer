@@ -8,10 +8,13 @@ from collections import defaultdict
 
 logger = logging.getLogger(__name__)
 
-# Invoke the program as python3 main.py <PATH_TO_FLOW_LOGS.csv> <PATH_TO_TAG_MAPPINGS.csv>
+# Invoke the program as python3 main.py <PATH_TO_FLOW_LOGS.csv> <PATH_TO_TAG_MAPPINGS.csv> <PATH_TO_OUTPUT.csv>
 # TODO:
-# - Add flags parsing
-# -
+# - Add flags parsing instead of accepting commandline args
+# - Stronger type checking
+# - Custom formats
+# - Add more complete enums (see definitions below)
+
 class IANAProtocolNum(Enum):
     ICMP = "1"
     IPv4 = "4"

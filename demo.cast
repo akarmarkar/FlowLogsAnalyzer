@@ -1,0 +1,12 @@
+{"version": 2, "width": 135, "height": 32, "timestamp": 1726716621, "env": {"SHELL": "/opt/homebrew/bin/bash", "TERM": "xterm-256color"}}
+[3.958064, "o", "\u001b[?2004hbash-5.2$ "]
+[3.631837, "o", "\u001b[7mpython3 main.py tests/data/flows2.csv tests/data/lookup.csv output.csv && cat output.csv\u001b[27m"]
+[3.620022, "o", "\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cpython3 main.py tests/data/flows2.csv tests/data/lookup.csv output.csv && cat output.csv\r\n\u001b[?2004l\r"]
+[3.692412, "o", "INFO:__main__:CSV Header:dstport,protocol,tag\r\n"]
+[3.694775, "o", "INFO:__main__:Skipping invalid record: 12,bad_record\r\nINFO:__main__:Completed parsing all TagRecord records. OK:12,skipped:0,total:12\r\n"]
+[3.694791, "o", "INFO:__main__:CSV Header:version,account_id,interface_id,srcaddr,dstaddr,srcport,dstport,protocol,packets,bytes,start,end,action,log_status\r\nINFO:__main__:49153,6\r\nINFO:__main__:993,6\r\nINFO:__main__:143,6\r\nINFO:__main__:993,6\r\nINFO:__main__:110,6\r\nINFO:__main__:110,6\r\nINFO:__main__:110,6\r\nINFO:__main__:Completed parsing all FlowLogRecordV2 records. OK:7,skipped:0,total:7\r\n"]
+[8.702622, "o", "Tag,Count\r\nsv_p1,0\r\nsv_p2,0\r\nsv_p3,0\r\nsv_p4,0\r\nsv_p5,0\r\nemail,6\r\ntest,1\r\nPort,Protocol,Count\r\n25,tcp,0\r\n68,udp,0\r\n23,tcp,0\r\n31,udp,0\r\n443,tcp,0\r\n22,tcp,0\r\n3389,tcp,0\r\n0,icmp,0\r\n110,tcp,3\r\n993,tcp,2\r\n143,tcp,1\r\n49153,tcp,1\r\nUntagged,0\r\n"]
+[8.703318, "o", "\u001b[?2004h"]
+[8.703326, "o", "bash-5.2$ "]
+[8.776752, "o", "\u001b[?2004l\r\r\n"]
+[8.777068, "o", "exit\r\n"]

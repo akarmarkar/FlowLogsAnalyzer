@@ -125,7 +125,7 @@ Assumptions:
 3. The input file as well as the file containing tag mappings are plain text (ascii) files.
 4. If there is an error parsing a record, that record is skipped.
 5. Order of printing the output does not matter.
-
+6. The tag mappings are dest port,protocol,tag and this header information is the first line of the file(so its ignored)
 
 How to compile/run the program: 
 - Checkout the github repository.
@@ -138,6 +138,12 @@ What was tested:
 # TODO/Any other analysis you may want to share about your code/program :
 
 - The records are parsed to strictly match types and bad records are not processed
+- 
+# TODO:
+# - Add flags parsing instead of accepting commandline args
+# - Stronger type checking
+# - Custom formats
+# - Add more complete enums (see definitions below)
 
 Demo:
 
